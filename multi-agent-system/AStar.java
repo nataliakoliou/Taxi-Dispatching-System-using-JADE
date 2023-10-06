@@ -1,8 +1,8 @@
-package hello;
+package multi-agent-system;
 
 import java.util.Arrays;
 
-public class AStarAlgorithm {
+public class AStar {
 	
 	private int[] distances = new int[MyAgent.directions.length]; // distances array looks like e.x: {2,3,1,4,3} where each element is the heuristic value of every possible neighbor cell
 	
