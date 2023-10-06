@@ -1,7 +1,4 @@
- /* Created by Francisco Javier on 20/10/2018.
- */
-
-package hello;
+package multi-agent-system;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
@@ -114,7 +111,7 @@ public class MyAgent extends Agent {
     /*********************************************************************  METHOD: PICK DIRECTION  **********************************************************************************/
 	private String pickDirection() {
 	   
-	    AStarAlgorithm aStar = new AStarAlgorithm();
+	    AStar aStar = new AStar();
 	    
 	    // SOME IMPORTANT AGENT VARIABLES
 		String[] desires = new String[Grid.clients.size()];  // desires = his need to serve every client on the grid
@@ -197,7 +194,7 @@ public class MyAgent extends Agent {
 								else {  // if the agent is not serving any client
 									
 									desires[k] = (Grid.clients.get(k).get(0)).toString();
-									choices[k] = Grid.heuristics[num][AStarAlgorithm.getArrayIndex(Grid.colours, firstPos)][i][j] + Grid.heuristics[num][AStarAlgorithm.getArrayIndex(Grid.colours, firstPos)][goalPos[0]][goalPos[1]];
+									choices[k] = Grid.heuristics[num][AStar.getArrayIndex(Grid.colours, firstPos)][i][j] + Grid.heuristics[num][AStar.getArrayIndex(Grid.colours, firstPos)][goalPos[0]][goalPos[1]];
 										
 									if (k == Grid.clients.size() - 1) {
 										int minCost = getBiasedMin(choices);
