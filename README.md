@@ -20,15 +20,12 @@ The Taxi Management System is designed to simulate the operation of taxi drivers
 5. **Run the System:** Run the `Grid` class, which serves as the entry point.
 
 ### Additional Notes:
-
 - Ensure you have Java Development Kit (JDK) installed on your system.
 - Depending on your system and IDE, you may use an integrated development environment (IDE) like Eclipse or IntelliJ IDEA to import and run the project.
 - For detailed information on how to configure and customize the behavior of the agents or grid, please refer to the relevant sections in the code or documentation.
 
 ## Usage
-- Upon running the project, the taxi agents will start serving clients in the grid world.
-- You can modify agent behaviors, grid configurations, and other parameters in the code to experiment with different scenarios.
-- Detailed documentation and examples of agent interactions are available in the code comments.
+Upon running the project, the taxi agents will start serving clients in the grid world. You can modify agent behaviors, grid configurations, and other parameters in the code to experiment with different scenarios. Detailed documentation and examples of agent interactions are available in the code comments.
 
 ## Authors
 [Natalia Koliou](https://www.linkedin.com/in/natalia-koliou-b37b01197/) & Dimitris Lazarakis
