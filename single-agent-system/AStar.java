@@ -1,8 +1,8 @@
-package hello;
+package single-agent-system;
 
 import java.util.Arrays;
 
-public class AStarAlgorithm {
+public class AStar {
 	
 	private int[] distances = new int[4]; // distances array looks like e.x: {2,3,1,4} where each element i = nextPos_i - initialPos
 	
