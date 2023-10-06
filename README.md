@@ -1,4 +1,4 @@
-# Taxi-Management-System-using-JADE
+# Taxi Management System using JADE
 This project is a Java-based taxi management system developed using [JADE](https://en.wikipedia.org/wiki/Java_Agent_Development_Framework) (Java Agent Development Framework).
 
 ## Introduction
