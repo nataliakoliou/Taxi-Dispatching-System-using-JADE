@@ -1,7 +1,4 @@
-/* Created by Francisco Javier on 20/10/2018.
- */
-
-package hello;
+package single-agent-system;
 import jade.core.AID;
 import jade.core.Agent;
 import jade.core.behaviours.CyclicBehaviour;
@@ -96,7 +93,7 @@ public class MyAgent extends Agent {
 	private String pickDirection() {
 	   
 		Grid grid = new Grid();
-	    AStarAlgorithm aStar = new AStarAlgorithm();
+	    AStar aStar = new AStar();
 	    
 	    // SOME IMPORTANT AGENT VARIABLES
 		String[] desires = new String[Grid.rate];  // desires = his need to serve every client on the grid
